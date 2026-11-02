@@ -1,0 +1,7 @@
+Gallery update
+
+- Replaced the eight sparse platform sections with one responsive 15-project gallery.
+- Added platform filters and retained all 15 selected projects and their live links.
+- Removed all third-party thum.io image requests, which were responsible for loading/black screenshot previews.
+- The current covers are locally rendered typographic project covers, not screenshots of the live websites. The build environment could not access the public sites to capture verified screenshots. Replace these covers with real, locally stored WebP screenshots when they can be captured from a browser with internet access.
+- No project claims or performance scores have been added.

@@ -73,3 +73,21 @@ if (themeToggle) {
     catch (_) { /* Theme still works for this page view if storage is unavailable. */ }
   });
 }
+
+
+// Filter the selected-work gallery by platform.
+const projectFilters = document.querySelectorAll(".project-filter");
+const projectCards = document.querySelectorAll(".project-gallery .project-card");
+projectFilters.forEach((button) => {
+  button.addEventListener("click", () => {
+    const selected = button.dataset.filter;
+    projectFilters.forEach((item) => {
+      const active = item === button;
+      item.classList.toggle("is-active", active);
+      item.setAttribute("aria-pressed", String(active));
+    });
+    projectCards.forEach((card) => {
+      card.hidden = selected !== "All" && card.dataset.platform !== selected;
+    });
+  });
+});
