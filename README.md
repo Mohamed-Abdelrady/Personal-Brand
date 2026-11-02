@@ -24,3 +24,8 @@ Deploy the folder directly to Cloudflare Pages. Keep your existing `.git` folder
 - Person structured data (JSON-LD)
 - `robots.txt` and `sitemap.xml`
 - Semantic landmarks, a single primary H1, descriptive project links
+
+## V10 update
+- Added the public email address and direct phone/WhatsApp contact links to the contact section and footer.
+- Added email and telephone to the Person structured data.
+- Fixed `.button-light` contrast in dark mode so light CTA buttons keep a light surface and readable dark text.
