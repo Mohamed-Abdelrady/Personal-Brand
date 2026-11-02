@@ -1,31 +1,26 @@
-# Mohamed Abdelrady — Personal Portfolio
+# Mohamed Abdelrady — Portfolio
 
-A responsive personal portfolio for Mohamed Abdelrady (Moe), independent web developer and agency development partner. Built with semantic HTML, CSS and vanilla JavaScript for Cloudflare Pages.
+Static portfolio website published with GitHub Pages.
 
-## Run locally
-1. Open this folder in VS Code.
-2. Run `index.html` with Live Server or any static server.
+## Live URL
 
-## Deploy
-Deploy the folder directly to Cloudflare Pages. Keep your existing `.git` folder when replacing files in an already-connected repository.
+https://mohamed-abdelrady.github.io/Personal-Brand/
 
-## Before launch
-- Verify every project URL and ensure you have permission to showcase each project.
-- Replace abstract project cover artwork with real optimized screenshots.
-- Replace `assets/images/profile-placeholder.svg` with your portrait saved as `assets/images/profile.jpg`; update the image path in `index.html` if you choose another filename. Use a sharp, naturally lit portrait, ideally 800 × 1000 or larger.
-- Add a real Open Graph image at `assets/images/og-cover.jpg` (1200 × 630 recommended).
-- Replace typographic collaboration wordmarks with official logos only if you have permission.
-- Review the copy and current availability statement before publishing.
-- Run Lighthouse on the deployed domain; scores depend on real assets, hosting and browser conditions.
+## Publishing
 
-## SEO included
-- Descriptive title and meta description
-- Canonical URL and Open Graph/Twitter metadata
-- Person structured data (JSON-LD)
-- `robots.txt` and `sitemap.xml`
-- Semantic landmarks, a single primary H1, descriptive project links
+Upload the contents of this folder to the root of the `Personal-Brand` repository and commit the changes. Keep the repository's `.git` directory when using a local Git checkout.
 
-## V10 update
-- Added the public email address and direct phone/WhatsApp contact links to the contact section and footer.
-- Added email and telephone to the Person structured data.
-- Fixed `.button-light` contrast in dark mode so light CTA buttons keep a light surface and readable dark text.
+GitHub Pages should be configured to deploy from the `main` branch and `/ (root)`.
+
+## SEO and brand assets
+
+- Canonical URL, Open Graph URL, structured-data URL, sitemap, and robots.txt currently use the GitHub Pages URL.
+- Social sharing image: `assets/images/og-cover.jpg` (1200 × 630).
+- Favicons: SVG, 16px PNG, 32px PNG, 512px PNG, plus Apple touch icon.
+- Web app manifest: `site.webmanifest`.
+
+When a custom domain is connected, update the canonical URL, Open Graph/Twitter image URLs, structured-data URL, sitemap, and robots.txt sitemap reference to the custom domain. Also update the manifest `start_url` and `scope` if the site moves from a project URL to the domain root.
+
+## Before public promotion
+
+Replace `assets/images/profile-placeholder.svg` with a genuine professional portrait if you want a personal photo on the site. The Open Graph card is a designed brand graphic and does not depend on a portrait.

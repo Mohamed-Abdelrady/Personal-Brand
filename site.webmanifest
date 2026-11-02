@@ -1,0 +1,13 @@
+{
+  "name": "Mohamed Abdelrady — Web Developer & Development Partner",
+  "short_name": "Mohamed A.",
+  "start_url": "/Personal-Brand/",
+  "scope": "/Personal-Brand/",
+  "display": "standalone",
+  "background_color": "#111a24",
+  "theme_color": "#111a24",
+  "icons": [
+    { "src": "assets/favicon-32.png", "sizes": "32x32", "type": "image/png" },
+    { "src": "assets/favicon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
