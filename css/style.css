@@ -1884,7 +1884,7 @@ body {
 }
 .collaboration-label {
   margin: 0 0 28px;
-  color: #75818a;
+  color: #59656e;
   font-size: 10px;
   font-weight: 800;
   letter-spacing: 0.18em;
@@ -1899,8 +1899,8 @@ body {
 .collab-logo {
   display: inline-flex;
   align-items: center;
-  color: #53616b;
-  opacity: 0.86;
+  color: #46535d;
+  opacity: 1;
   white-space: nowrap;
 }
 .collab-fullcircle {
