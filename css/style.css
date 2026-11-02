@@ -354,7 +354,7 @@ body[data-theme='dark'] .button-light:hover {
   align-items: start;
 }
 .section-kicker {
-  color: #77828a;
+  color: #58636c;
   margin: 4px 0 0;
 }
 .intro-statement {
@@ -572,7 +572,7 @@ body[data-theme='dark'] .button-light:hover {
 }
 .portfolio-disclaimer {
   margin: 35px 0 0;
-  color: #7c858b;
+  color: #5d6871;
   font-size: 10px;
   line-height: 1.6;
 }
@@ -733,7 +733,7 @@ body[data-theme='dark'] .button-light:hover {
   align-items: center;
 }
 .copyright {
-  color: #74818b;
+  color: #aeb9c1;
   font-size: 12px;
 }
 :focus-visible {
@@ -1966,7 +1966,7 @@ body {
 }
 .collaboration-note {
   margin: 26px 0 0;
-  color: #879199;
+  color: #5b6670;
   font-size: 11px;
 }
 .about-copy p {
@@ -2153,10 +2153,20 @@ body[data-theme='dark'] .agency-section {
   background: #151f2a;
   color: #edf2f5;
 }
-body[data-theme='dark'] .section-kicker,
 body[data-theme='dark'] .eyebrow-dark,
 body[data-theme='dark'] .tech-label {
   color: #9aabb8;
+}
+body[data-theme='dark'] .section-kicker,
+body[data-theme='dark'] .portfolio-disclaimer,
+body[data-theme='dark'] .collaboration-label,
+body[data-theme='dark'] .collaboration-note {
+  color: #b7c4ce;
+}
+
+body[data-theme='dark'] .collab-logo {
+  color: #c6d1d9;
+  opacity: 1;
 }
 body[data-theme='dark'] .intro-statement,
 body[data-theme='dark'] .section-heading h2,
@@ -2190,8 +2200,7 @@ body[data-theme='dark'] .project-meta h3 {
   color: #edf2f5;
 }
 body[data-theme='dark'] .project-meta p,
-body[data-theme='dark'] .project-type,
-body[data-theme='dark'] .portfolio-disclaimer {
+body[data-theme='dark'] .project-type {
   color: #a7b4be;
 }
 body[data-theme='dark'] .project-visual::after {
