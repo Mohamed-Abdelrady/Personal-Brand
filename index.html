@@ -347,7 +347,13 @@
         <div class="about-content-grid">
           <div class="about-visual-column">
             <figure class="profile-portrait">
-              <img src="assets/images/profile.png" alt="Mohamed Abdelrady, independent web developer" width="560" height="680" loading="lazy" decoding="async">
+              <picture>
+                <source
+                  type="image/webp"
+                  srcset="assets/images/profile-360.webp 360w, assets/images/profile-720.webp 720w"
+                  sizes="(max-width: 400px) calc(100vw - 40px), 360px">
+                <img src="assets/images/profile.png" alt="Mohamed Abdelrady, independent web developer" width="792" height="1087" loading="lazy" decoding="async">
+              </picture>
               <figcaption>MOHAMED ABDELRADY <span>WEB DEVELOPER</span></figcaption>
             </figure>
           </div>

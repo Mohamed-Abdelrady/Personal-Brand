@@ -2358,6 +2358,11 @@ body[data-theme='dark'] .site-header {
   overflow: hidden;
   background: #dfe4e5;
 }
+.profile-portrait picture {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
 .profile-portrait img {
   display: block;
   width: 100%;
