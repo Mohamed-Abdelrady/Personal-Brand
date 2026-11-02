@@ -1,31 +1,29 @@
 # Mohamed Abdelrady — Personal Portfolio
 
-A responsive personal portfolio for Mohamed Abdelrady (Moe), independent web developer and agency development partner. Built with semantic HTML, CSS and vanilla JavaScript for Cloudflare Pages.
+A responsive personal portfolio for Mohamed Abdelrady (Moe), independent web developer and agency development partner. Built with semantic HTML, CSS and vanilla JavaScript.
 
 ## Run locally
 1. Open this folder in VS Code.
 2. Run `index.html` with Live Server or any static server.
 
-## Deploy
-Deploy the folder directly to Cloudflare Pages. Keep your existing `.git` folder when replacing files in an already-connected repository.
+## Deploy to GitHub Pages
+1. Extract this ZIP.
+2. Open the inner `mohamedabdelrady-portfolio` folder.
+3. Upload the contents of that folder to the root of the `Personal-Brand` GitHub repository, replacing the corresponding files.
+4. Commit the changes and confirm the GitHub Pages deployment completes.
 
-## Before launch
+## Before launch / future updates
 - Verify every project URL and ensure you have permission to showcase each project.
-- Replace abstract project cover artwork with real optimized screenshots.
-- Replace `assets/images/profile-placeholder.svg` with your portrait saved as `assets/images/profile.jpg`; update the image path in `index.html` if you choose another filename. Use a sharp, naturally lit portrait, ideally 800 × 1000 or larger.
-- Add a real Open Graph image at `assets/images/og-cover.jpg` (1200 × 630 recommended).
+- Replace project cover artwork with genuine, optimized project screenshots where available.
+- The current profile image is `assets/images/profile.png`; keep its path and descriptive alt text in `index.html` in sync if you replace it.
+- Keep the Open Graph image at `assets/images/og-cover.jpg` (1200 × 630).
 - Replace typographic collaboration wordmarks with official logos only if you have permission.
 - Review the copy and current availability statement before publishing.
-- Run Lighthouse on the deployed domain; scores depend on real assets, hosting and browser conditions.
+- Run Lighthouse on the deployed page; scores depend on real assets, hosting and browser conditions.
 
 ## SEO included
 - Descriptive title and meta description
 - Canonical URL and Open Graph/Twitter metadata
 - Person structured data (JSON-LD)
-- `robots.txt` and `sitemap.xml`
-- Semantic landmarks, a single primary H1, descriptive project links
-
-## V10 update
-- Added the public email address and direct phone/WhatsApp contact links to the contact section and footer.
-- Added email and telephone to the Person structured data.
-- Fixed `.button-light` contrast in dark mode so light CTA buttons keep a light surface and readable dark text.
+- `robots.txt`, `sitemap.xml`, and web app manifest
+- Semantic landmarks, a single primary H1, and descriptive project links
