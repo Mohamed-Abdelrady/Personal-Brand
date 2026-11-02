@@ -19,7 +19,7 @@
 }
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 84px;
+  scroll-padding-top: 89px;
 }
 body {
   margin: 0;
@@ -2130,7 +2130,7 @@ body {
   font-size: 11px;
 }
 html {
-  scroll-padding-top: 104px;
+  scroll-padding-top: 89px;
 }
 @media (max-width: 680px) {
   .primary-nav .theme-toggle {
@@ -2223,7 +2223,7 @@ body[data-theme='dark'] .theme-toggle:hover {
   --muted-dark: #53616b;
 }
 html {
-  scroll-padding-top: 96px;
+  scroll-padding-top: 89px;
 }
 .site-header {
   background: rgba(17, 26, 36, 0.96);
