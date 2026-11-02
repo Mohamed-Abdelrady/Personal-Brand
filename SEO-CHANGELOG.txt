@@ -1,0 +1,16 @@
+SEO/content update — based on the supplied portfolio ZIP
+
+Preserved:
+- Existing visual design, CSS, JavaScript, layout, animations and button styles.
+- Existing homepage H1 and hero copy.
+- Existing page title, meta description, canonical URL, Open Graph and Twitter metadata.
+- Existing project links and project ordering.
+
+Updated:
+- Made project descriptions more specific using each card's existing platform label:
+  QueenRx (Webflow), Wolfhair (GoHighLevel), QAVAC and Michener Park (WordPress),
+  GetReece.ai (Framer), All In Line and Black Sea Resin Art (Shopify).
+- Added GoHighLevel to the CMS & platform development service description.
+- Improved the profile image alt text to identify the subject and role.
+
+No unsupported project outcomes, performance metrics, or client claims were added.

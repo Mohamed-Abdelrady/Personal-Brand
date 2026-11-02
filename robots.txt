@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://mohamed-abdelrady.github.io/Personal-Brand/sitemap.xml
+Sitemap: https://mohamedabdelrady.com/sitemap.xml
